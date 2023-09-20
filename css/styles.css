@@ -1,0 +1,457 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+/* ===============HEADER=============== */
+
+.header {
+  background-color: #fcf1e0;
+}
+
+.header-nav {
+}
+
+.header-nav-logo {
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.header-nav-logo span {
+  font-style: italic;
+}
+
+.header-nav-list {
+}
+.header-nav-list-item {
+}
+
+.header-nav-list-item-link {
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.header-sm-list {
+}
+.header-sm-list-item {
+}
+.header-sm-list-item-link {
+}
+
+/* ==================================== */
+
+/* ===============HERO=============== */
+
+.hero {
+  background-color: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.hero-buy-btn {
+  background-color: #fd9222;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-made-btn {
+  background-color: transparent;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+/* ================================== */
+
+/* ===============ADVANTAGES=============== */
+
+.advantages {
+  background-color: #1e1823;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+}
+
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+
+.advantages-list-item-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.advantages-list-item-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* ======================================== */
+
+/* ===============TASTES=============== */
+
+.tastes {
+}
+
+.tastes-title {
+  color: #111;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.tastes-title span {
+  color: #fd9222;
+}
+
+.tastes-list {
+}
+.tastes-list-item {
+}
+.tastes-list-item-img {
+}
+
+.tastes-list-item-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* ==================================== */
+
+/* ===============MADE=============== */
+
+.made {
+}
+.made-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.made-title span {
+  color: #fd9222;
+}
+
+.made-img {
+}
+.made-secondary-title {
+  background-color: #ffffff;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.made-list {
+  background-color: #ffffff;
+}
+.made-list-item {
+}
+.made-list-item-text {
+  color: #111;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* ================================== */
+
+/* ===============PRODUCTS=============== */
+
+.products {
+}
+
+.products-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.products-title span {
+  color: #fd9222;
+}
+
+.products-list {
+}
+
+.products-list-item {
+  background-color: #ffffff;
+}
+
+.products-list-item-img {
+}
+
+.products-list-item-title {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.products-list-item-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.products-list-item-btn {
+  color: #111;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
+}
+
+/* ====================================== */
+
+/* ===============SELLERS=============== */
+
+.sellers {
+}
+
+.sellers-title {
+  color: #fd9222;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+
+.sellers-title span {
+  color: #111111;
+}
+
+.sellers-list {
+}
+.sellers-list-item {
+  background-color: #ffffff;
+}
+.sellers-list-item-img {
+}
+.sellers-list-item-title {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* ===================================== */
+
+/* ===============REVIEWS=============== */
+
+.reviews {
+}
+
+.reviews-title {
+  color: #fd9222;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.reviews-title span {
+  color: #111111;
+}
+
+.reviews-list {
+}
+
+.reviews-list-item {
+  background-color: #ffffff;
+}
+
+.reviews-list-item-img {
+}
+
+.reviews-list-item-title {
+  color: #111;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.reviews-list-item-text {
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.reviews-btn {
+  background-color: transparent;
+  color: #111;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #fd9222;
+}
+
+/* ===================================== */
+
+/* ===============FOOTER=============== */
+
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-main-text {
+  color: #fd9222;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+
+.footer-main-text span {
+  color: #ffffff;
+}
+
+.footer-sm-text {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.footer-sm-list {
+}
+.footer-sm-list-item {
+}
+.footer-sm-list-item-link {
+}
+
+.footer-contact-text {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-address-list-item {
+}
+
+.footer-address-list-item-link {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-list-item {
+}
+
+.footer-nav-list-item-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+/* ==================================== */
