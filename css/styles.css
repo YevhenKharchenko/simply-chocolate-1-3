@@ -311,13 +311,8 @@ img {
   text-transform: uppercase;
 }
 
-.tastes-list-item-title-black {
+.black-font {
   color: #111;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
 }
 
 /* ==================================== */
